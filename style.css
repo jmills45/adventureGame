@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    font-family: "roboto";
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid black;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 70%;
+}
+
+.combatArea {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex: 6;
+    border: 1px solid black;
+}
+
+.healthBars {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    border: 1px solid black;
+    gap: 1rem;
+    margin: 2px;
+
+}
+
+.playerHP {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.enemyHP {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.combatImages {
+    flex: 6;
+}
+
+.combatLog {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    flex: 2;
+    max-height: 200px;
+    padding: 1rem;
+    overflow: auto;
+}
+
+.actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: .5rem;
+    border: 1px solid black;
+    font-size: 2rem;
+}
+
+.classSelection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: .5rem;
+    border: 1px solid black;
+}
+
+button {
+    padding: 1rem 2rem;
+}
